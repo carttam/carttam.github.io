@@ -20,7 +20,7 @@ body{
     color: #fff;
 }
 .custom-width{
-    width: 50%;
+    width: 80%;
 }
 .v-a{
     top: 50%;
@@ -34,4 +34,7 @@ body{
     .f-l{
         float: left;
     }
+    .custom-width{
+    width: 50%;
+}
 }
