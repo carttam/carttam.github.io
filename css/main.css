@@ -2,8 +2,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@1&display=swap');
     font-family: 'Cormorant', serif;
 }
+@font-face {
+    src: url("../assets/font/iranyekanwebregular.woff") format("woff");
+    font-family: iranyekanweb;
+}
 body{
-    font-family: Cormorant;
+    font-family: 'Cormorant', serif;
 }
 .bg{
     background: url("../assets/img/0and1.jpeg") center center ;
@@ -16,8 +20,9 @@ body{
 }
 .bg2{
     background: rgba(0, 0, 0, 0.7);
-    border-radius: 20%;
+    border-radius: 7%;
     color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.90);
 }
 .custom-width{
     width: 80%;
@@ -26,6 +31,9 @@ body{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+.font_iran_yekan_web{
+    font-family: iranyekanweb !important;
 }
 @media screen and (min-width: 1420px){
     .f-r{
