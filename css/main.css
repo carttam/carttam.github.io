@@ -14,7 +14,7 @@ body{
 }
 .bg1{
     background-attachment: fixed;
-    /*background-size: cover;*/
+    background-size: cover;
     background-position: center center;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/img/0and1.jpeg");
 }
@@ -44,5 +44,10 @@ body{
     }
     .custom-width{
     width: 50%;
+    }
 }
+@media screen and (max-width: 400px) {
+    body,.font_iran_yekan_web{
+        font-size: small;
+    }
 }
